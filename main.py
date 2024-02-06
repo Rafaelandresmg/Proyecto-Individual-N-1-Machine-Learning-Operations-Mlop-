@@ -247,7 +247,7 @@ def best_developer_year(year: int):
                         INSTRUCCIONES<br>
                         1. Haga clik en "Try it out".<br>
                         2. Ingrese el desarrollador en el box abajo, ejemplo: Valve.<br>
-                        3. Ir a "Resposes" para ver l desarrollador, se devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor positivo o negativo.
+                        3. Ir a "Resposes" se devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor positivo o negativo.
                         </font>
                         """,
          tags=["Consultas Generales"])
