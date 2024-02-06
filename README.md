@@ -24,7 +24,7 @@ La finalidad de este proyecto es generar el primer modelo de Machine Learning (e
 - **1.3 *Desarrollo de API:*** Implementé una API con FastAPI y se deployó en Render, ésta proporciona cinco (5) consultas sobre información de videojuegos. Puede ver el detalle del código en los notebooks [Funciones](Notebooks/Funciones.ipynb) y [Consultas](Notebooks/Consultas.ipynb).<br />
   + Endpoint 1 (Developer): Devuelve Cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora.<br />
   + Endpoint 2 (UserData): Devuelve cantidad de dinero gastado por el usuario, el porcentaje de recomendación en base a reviews.recommend y cantidad de items.<br />
-  + Endpoint 3 (UsersRecommend): Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado.<br />
+  + Endpoint 3 (UserForGenre): Devuelve el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año de lanzamiento.<br />
   + Endpoint 4 (Best_Developer_year): Devuelve el top 3 de desarrolladores con juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos)<br />
   + Endpoint 5 (Developer_reviews_analysis): Según la empresa desarrolladora, se devuelve un diccionario con el nombre de la desarrolladora como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor.<br />
 Para acceder a la funcionalidad completa de la API y explorar las recomendaciones de juegos, puedes visitar este enlace [URL de la API](). En este sitio, encontrarás las diversas funciones desarrolladas. ¡Disfruta explorando!.
@@ -38,7 +38,7 @@ EL Modelo de Aprendizaje Automatico requerido es un sistema de recomendación co
 Se utilizó la métrica de **similitud del coseno**, ya que mide el coseno del ángulo entre dos vectores. Cuanto más cercano a 1, más similares son los vectores. Este método fue clave para determinar qué tan parecidos son los juegos entre sí. Esto se utiliza para generar recomendaciones, ya que los juegos con vectores similares son considerados como recomendaciones potenciales.<br />
 
 **4. Implementación de MLOps** <br />
-**Deploy del Modelo:** Desplegué el modelo de recomendación como parte de la API, la cual puedes consultar acá: **[URL de la API]()**. <br />
+**Deploy del Modelo:** Desplegué el modelo de recomendación como parte de la API, la cual puedes consultar acá: **[URL de la API](https://proyecto-individual-nro-1-machine.onrender.com/docs)**. <br />
 
 **5. Video Explicativo** <br />
 Grabé un video explicativo que muestra el funcionamiento de la API, consultas realizadas y una breve explicación de los modelos de ML utilizados [Youtube]().<br />
@@ -60,7 +60,7 @@ Grabé un video explicativo que muestra el funcionamiento de la API, consultas r
 ## Ejecutar la API (en su máquina local) <br />
 1. Clonar el repositorio <br />
 ```
-
+https://github.com/Rafaelandresmg/Proyecto-Individual-N-1-Machine-Learning-Operations-Mlop-
 ```
 2. Crear entorno virtual<br />
 ```
