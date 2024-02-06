@@ -1,4 +1,4 @@
-![Steam] 
+![Steam](https://github.com/Rafaelandresmg/Proyecto-Individual-N-1-Machine-Learning-Operations-Mlop-/blob/main/Assets/Proyecto%20png%201.png) 
 <br />
 # Proyecto MLOps: Sistema de Recomendación de Videojuegos para Usuarios de Steam
 
@@ -10,7 +10,7 @@ La finalidad de este proyecto es generar el primer modelo de Machine Learning (e
 <br />
 
 ## Etapas del Proyecto <br />
-![Etapas] 
+![Etapas](https://github.com/Rafaelandresmg/Proyecto-Individual-N-1-Machine-Learning-Operations-Mlop-/blob/main/Assets/Proyecto%20png%202.png) 
 <br />
 **1. Ingeniería de Datos (ETL y API)** <br />
 
